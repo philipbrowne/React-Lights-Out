@@ -108,7 +108,11 @@ function Board({ nrows = 5, ncols = 5, chanceLightStartsOn = 0.5 }) {
     gameBoard.push(<tr key={y}>{row}</tr>);
   }
   if (hasWon(board)) {
-    return <h1 data-testid="winning-header">Congratulations You Won!</h1>;
+    return (
+      <h1 className="Board-Header" data-testid="winning-header">
+        Congratulations You Won!
+      </h1>
+    );
   }
   return (
     <div className="Board">
