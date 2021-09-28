@@ -1,23 +1,38 @@
 .Cell {
-  background: rgb(227, 227, 227);
-  background: radial-gradient(
+  background-color: rgb(227, 227, 227);
+  background-image: radial-gradient(
     circle,
     rgba(227, 227, 227, 1) 0%,
     rgba(75, 75, 75, 1) 95%
   );
   cursor: pointer;
-  transition: background 0.5s;
   border-radius: 20%;
+  -webkit-transition: opacity 0.7s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
+  opacity: 0.8;
 }
 
 .Cell-lit {
-  background: rgb(224, 102, 49);
-  background: radial-gradient(
+  background-color: rgb(224, 102, 49);
+  background-image: radial-gradient(
     circle,
     rgba(224, 102, 49, 1) 0%,
     rgba(255, 209, 0, 1) 95%
   );
 
-  transition: background-color 0.5s;
+  transition: background-image 0.7s;
   border-radius: 20%;
+  opacity: 0.8;
+  -webkit-transition: opacity 0.7s ease-in-out;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.Cell:hover,
+.Cell-lit:hover {
+  opacity: 1;
+}
+
+.Cell::before,
+.Cell-lit::before {
+  opacity: 1;
 }
