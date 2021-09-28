@@ -1,0 +1,13 @@
+.GameRules {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .GameRules {
+    font-size: 0.8rem;
+  }
+}
