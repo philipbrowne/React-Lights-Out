@@ -1,8 +1,12 @@
 # React Lights Out Game
 
+![](https://react-lights-out-board-game.netlify.app/lights-out.png)
+
 Lights Out Game built with React!
 
 Created by Philip Browne
+
+![](https://react-lights-out-board-game.netlify.app/screenshot.png)
 
 # Getting Started with Create React App
 
