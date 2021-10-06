@@ -9,33 +9,12 @@
 }
 
 .Board-Table {
-  width: 40vw;
-  height: 40vw;
+  width: 80vmin;
+  height: 80vmin;
 }
 
 .Board-Header {
   color: orange;
   margin-bottom: 1rem;
   font-size: 2rem;
-}
-
-@media (max-width: 1200px) {
-  .Board-Table {
-    width: 60vw;
-    height: 60vw;
-  }
-}
-
-@media (max-width: 750px) {
-  .Board-Table {
-    width: 70vw;
-    height: 70vw;
-  }
-}
-
-@media (max-width: 400px) {
-  .Board-Table {
-    width: 80vw;
-    height: 80vw;
-  }
 }
